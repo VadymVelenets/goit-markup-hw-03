@@ -76,10 +76,10 @@ button {
   border-bottom: 1px solid #e7e9fc;
   background: #ffffff;
 }
-.header-container{
+.header-container {
   display: flex;
 }
-.header-nav-list{
+.header-nav-list {
   gap: 40px;
 }
 .header-nav {
@@ -136,6 +136,7 @@ button {
 .about {
   background: #2e2f42;
   color: #ffffff;
+  padding: 188px 0;
 }
 .about-text {
   font-family: inherit;
@@ -146,6 +147,7 @@ button {
   line-height: 1.07em;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 .btn {
   cursor: pointer;
@@ -157,6 +159,12 @@ button {
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.04em;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
@@ -165,13 +173,17 @@ button {
 }
 /* Our qualities */
 .qualities {
+  padding: 120px 0;
 }
 .qualities-title {
   visibility: hidden;
 }
 .qualities-list {
+  display: flex;
+  gap: 24px;
 }
 .qualities-item {
+  width: calc((100% - 72px) / 4);
 }
 .qualities-subtitle {
   font-family: inherit;
@@ -181,6 +193,7 @@ button {
   color: #2e2f42;
   line-height: 1.2em;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .qualities-position {
   font-family: inherit;
@@ -191,6 +204,7 @@ button {
 }
 /* Our work */
 .work {
+  padding-bottom: 120px;
 }
 .work-title {
   font-family: inherit;
@@ -201,16 +215,21 @@ button {
   line-height: 1.11em;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .work-list {
+  display: flex;
+  gap: 24px;
 }
 .work-item {
+  width: calc((100% - 48px) / 3);
 }
 .work-img {
 }
 /* Team section */
 .team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 .team-title {
   font-family: inherit;
@@ -222,13 +241,21 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-img {
+}
+.team-block {
+  padding: 32px 16px;
 }
 .team-subtitle {
   font-family: inherit;
@@ -238,6 +265,8 @@ button {
   color: #2e2f42;
   line-height: 1.2em;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-position {
   font-family: inherit;
@@ -245,13 +274,25 @@ button {
   font-size: 16px;
   color: #434455;
   line-height: 1.5em;
+  text-align: center;
 }
 /* Navigation section */
 .navig {
+  padding: 96px 0 120px;
 }
 .navig-title {
 }
 .navig-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.navig-list-two {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .navig-item {
   font-family: inherit;
@@ -270,11 +311,15 @@ button {
   background-color: #f4f4fd;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .navig-btn-f:hover,
 .navig-btn-f:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .navig-btn {
   cursor: pointer;
@@ -299,6 +344,14 @@ button {
 .serv-list {
 }
 .serv-item {
+  width: calc((100% - 48px) / 3);
+}
+.serv-link {
+}
+.name-app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .serv-img {
 }
@@ -310,6 +363,7 @@ button {
   color: #2e2f42;
   line-height: 1.2em;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .serv-position {
   font-family: inherit;
@@ -322,6 +376,7 @@ button {
 /* Footer section */
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   color: #ffffff;
@@ -333,6 +388,8 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-two {
   color: #f4f4fd;
@@ -343,4 +400,5 @@ button {
   font-size: 16px;
   color: #f4f4fd;
   line-height: 1.5em;
+  max-width: 264px;
 }
