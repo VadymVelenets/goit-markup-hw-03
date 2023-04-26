@@ -148,6 +148,9 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .btn {
   cursor: pointer;
@@ -165,6 +168,9 @@ button {
   border: none;
   background-color: #4d5ae5;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .btn:hover,
 .btn:focus {
@@ -293,6 +299,7 @@ button {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-left: 0;
 }
 .navig-item {
   font-family: inherit;
